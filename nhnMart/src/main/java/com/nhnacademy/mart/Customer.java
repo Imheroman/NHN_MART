@@ -6,6 +6,7 @@ public class Customer {
 
     // 고객 구매 목록
     private final BuyList buyList;
+    private int money = 20_000;
 
     // 고객 장바구니
     private Basket basket;
@@ -22,13 +23,12 @@ public class Customer {
     // TODO pickFoods 메서드 구현
     public void pickFoods(FoodStand foodStand) {
         ArrayList<BuyList.Item> items = buyList.getItems();
-        ArrayList<Food> foods = foodStand.getFoods();
-
 
         for (BuyList.Item item : items) {
+            ArrayList<Food> foods = foodStand.getFoods();
             String name = item.getName();
             int price = 0;
-//            int price = item.getAmount(); // foodStand.
+
             for (Food food : foods) {
                 if (food.getName().equals(name)) {
                     price = item.getAmount() * food.getPrice();
@@ -36,12 +36,25 @@ public class Customer {
                 }
             }
 
-            System.out.println("name: " + name + ", price: " + price);
             basket.add(new Food(name, price));
+            foodStand.remove(name, item.getAmount());
         }
     }
 
     // TODO payTox 메서드 구현
+    public void payTox(Counter counter) {
+        counter.pay(this);
+    }
 
+    public int getMoney() {
+        return money;
+    }
 
+    public void setMoney(int money) {
+        this.money = money;
+    }
+
+    public Basket getBasket() {
+        return this.basket;
+    }
 }

@@ -5,21 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e092487-99f6-4859-8797-f1d38bd1325a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/CounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhnMart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/BuyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/BuyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/FoodStand.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/FoodStand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/NhnMart.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/NhnMart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/NhnMartShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/nhnMart/src/main/java/com/nhnacademy/mart/NhnMartShell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/Basket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/Basket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/FoodStand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/FoodStand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/NhnMart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/NhnMart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/NhnMartShell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/nhnacademy/mart/NhnMartShell.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -47,6 +58,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/kim-young-woong/Desktop/NHN/09/20230901/maven-dir/NHN_MART",
     "node.js.detected.package.tslint": "true",
@@ -60,6 +74,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nhnacademy.mart" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="NhnMartShell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nhnacademy.mart.NhnMartShell" />
@@ -90,7 +112,7 @@
       <updated>1693296335213</updated>
       <workItem from="1693555884187" duration="584000" />
       <workItem from="1693559846607" duration="54000" />
-      <workItem from="1693559943036" duration="1515000" />
+      <workItem from="1693559943036" duration="5291000" />
     </task>
     <servers />
   </component>
