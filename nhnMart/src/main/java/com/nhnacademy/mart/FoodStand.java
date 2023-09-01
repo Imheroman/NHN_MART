@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class FoodStand {
 
+    public ArrayList<Food> getFoods() {
+        return foods;
+    }
+
     private final ArrayList<Food> foods = new ArrayList<>();
 
     // TODO add 메서드 구현

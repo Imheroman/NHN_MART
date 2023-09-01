@@ -3,7 +3,6 @@ package com.nhnacademy.mart;
 import java.util.ArrayList;
 
 public class BuyList {
-
     private final ArrayList<Item> items = new ArrayList<>();
 
     // TODO add 메서드 생성
@@ -21,6 +20,15 @@ public class BuyList {
 
     public static class Item {
         private final String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public int getAmount() {
+            return amount;
+        }
+
         private final int amount;
 
         public Item(String name, int amount) {
@@ -29,5 +37,7 @@ public class BuyList {
         }
     }
 
-
+    public ArrayList<Item> getItems() {
+        return this.items;
+    }
 }
